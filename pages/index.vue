@@ -1,11 +1,11 @@
 <template>
     <section class="flex flex-col items-center justify-center gap-6 md:flex-row">
         <div class="basis-1/2 space-y-6">
-            <h2 class="font-jost text-4xl dark:text-white lg:text-6xl">
+            <h1 class="font-jost text-4xl dark:text-white lg:text-6xl">
                 Self taught
                 <br>
                 <span class="text-primary-400">full-stack</span> web developer
-            </h2>
+            </h1>
 
             <p>
                 👋 Hi there, my name is Iván. I'm a self taught web developer from Argentina.
@@ -43,7 +43,7 @@ import gsap from 'gsap'
 
 onMounted(() => {
     gsap.timeline({ repeatDelay: 0.1, defaults: { opacity: 0, ease: 'ease.in' } })
-        .from('section > :first-child > h2', { yPercent: 50, delay: 0.5 })
+        .from('section > :first-child > h1', { yPercent: 50, delay: 0.5 })
         .from('section > :first-child > p', { yPercent: 50 })
         .from('section > :first-child > div', { yPercent: 50 })
         .from('section > :last-child > img', { })
