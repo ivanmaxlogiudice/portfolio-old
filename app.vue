@@ -1,5 +1,8 @@
 <template>
     <NuxtLayout>
+        <SeoKit />
+        <OgImageScreenshot />
+
         <NuxtPage />
     </NuxtLayout>
 
@@ -7,5 +10,7 @@
 </template>
 
 <script lang="ts" setup>
-useMetaHelper({})
+definePageMeta({
+    title: 'Home'
+})
 </script>

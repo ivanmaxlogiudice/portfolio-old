@@ -14,7 +14,7 @@
 import gsap from 'gsap'
 import type { IProject } from '~~/types/IProject'
 
-useMetaHelper({
+definePageMeta({
     title: 'Projects',
     description: 'Things i have worked on.'
 })

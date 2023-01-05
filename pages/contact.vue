@@ -32,7 +32,7 @@
 import gsap from 'gsap'
 
 const app = useAppConfig()
-useMetaHelper({
+definePageMeta({
     title: 'Contact'
 })
 

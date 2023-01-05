@@ -14,6 +14,13 @@
 useHead({
     bodyAttrs: {
         class: 'dark:bg-gray-800 scroll-smooth bg-white text-gray-600 dark:text-gray-200 font-sans transition-colors ease-linear duration-150'
-    }
+    },
+    meta: [
+        {
+            hid: 'keywords',
+            name: 'keywords',
+            content: 'fullstack, backend, frontend, web, developer, vue, nuxt'
+        }
+    ]
 })
 </script>

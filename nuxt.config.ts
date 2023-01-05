@@ -8,9 +8,19 @@ export default defineNuxtConfig({
     // https://nuxt.com/docs/api/configuration/nuxt-config/#ssr
     // ssr: false,
 
-    tailwindcss: {
-        configPath: 'tailwind.config.js'
+    runtimeConfig: {
+        public: {
+            titleSeparator: '·',
+            siteUrl: 'https://ivanlogiudice.com',
+            siteName: 'Iván Máximiliano, Lo Giudice',
+            siteDescription: 'I\'m a full stack developer. I build web apps using frameworks such as vue.js, nuxt, tailwindcss, amongst others.',
+            language: 'en'
+        }
     },
+
+    extends: [
+        'nuxt-seo-kit'
+    ],
 
     modules: [
         // https://google-fonts.nuxtjs.org/
@@ -33,16 +43,18 @@ export default defineNuxtConfig({
         }
     },
 
+    tailwindcss: {
+        configPath: 'tailwind.config.js'
+    },
+
     colorMode: {
+        preference: 'dark',
+        fallback: 'dark',
         classSuffix: ''
     },
 
-    app: {
-        head: {
-            htmlAttrs: {
-                lang: 'en'
-            }
-        }
+    ogImage: {
+        colorScheme: 'dark'
     },
 
     build: {

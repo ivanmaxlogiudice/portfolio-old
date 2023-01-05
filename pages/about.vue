@@ -138,7 +138,7 @@
 <script lang="ts" setup>
 import gsap from 'gsap'
 
-useMetaHelper({
+definePageMeta({
     title: 'About Me'
 })
 
