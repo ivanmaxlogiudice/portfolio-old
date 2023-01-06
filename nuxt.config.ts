@@ -55,6 +55,7 @@ export default defineNuxtConfig({
 
     ogImage: {
         colorScheme: 'dark',
+        delay: 2500,
     },
 
     build: {
