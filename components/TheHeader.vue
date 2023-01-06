@@ -33,7 +33,7 @@ const links = [
     { link: '/', text: 'Home', icon: HomeIcon },
     { link: '/projects', text: 'Projects', icon: BriefcaseIcon },
     { link: '/about', text: 'About', icon: IdentificationIcon },
-    { link: '/contact', text: 'Contact', icon: ChatBubbleBottomCenterTextIcon }
+    { link: '/contact', text: 'Contact', icon: ChatBubbleBottomCenterTextIcon },
 ]
 
 const animate = (target: HTMLElement | NodeListOf<Element>, ease: 'ease.in' | 'elastic', yPercent: number, duration: number, delay: number, stagger = false) => {

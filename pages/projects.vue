@@ -16,7 +16,7 @@ import type { IProject } from '~~/types/IProject'
 
 definePageMeta({
     title: 'Projects',
-    description: 'Things i have worked on.'
+    description: 'Things i have worked on.',
 })
 
 const projects = await queryContent<IProject>('projects').find()

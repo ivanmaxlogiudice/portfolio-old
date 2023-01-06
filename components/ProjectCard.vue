@@ -7,7 +7,7 @@
                 :title="project.title"
                 :alt="project.title"
                 loading="lazy"
-            >
+            />
         </div>
 
         <div>

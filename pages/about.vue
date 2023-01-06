@@ -41,7 +41,7 @@
                         {{ stack.title }}
                     </h2>
 
-                    <hr class="my-2 w-full border-gray-100 dark:border-gray-700">
+                    <hr class="my-2 w-full border-gray-100 dark:border-gray-700" />
 
                     <div class="grid gap-2 md:grid-cols-3 lg:grid-cols-4">
                         <div v-for="dev in stack.items" :key="dev.name" class="flex cursor-pointer select-none items-center space-x-2 overflow-hidden rounded-md bg-gray-100/30 px-4 py-2 font-semibold text-gray-500 shadow dark:bg-gray-700/50 dark:text-gray-100">
@@ -139,7 +139,7 @@
 import gsap from 'gsap'
 
 definePageMeta({
-    title: 'About Me'
+    title: 'About Me',
 })
 
 onMounted(() => {
@@ -179,14 +179,14 @@ const stacks = [
             { name: 'Electron', icon: 'electron', bg: 'rgb(162 236 251 / 0.12)' },
             { name: 'Laravel', icon: 'laravel', bg: 'rgb(255 82 82 / 0.12)' },
             { name: 'NodeJS', icon: 'nodejs', bg: 'rgb(111 166 96 / 0.12)' },
-            { name: 'PHP', icon: 'php', bg: 'rgb(97 129 183 / 0.12)' }
-        ]
+            { name: 'PHP', icon: 'php', bg: 'rgb(97 129 183 / 0.12)' },
+        ],
     },
     {
         title: 'Apps',
         items: [
-            { name: 'VS Code', icon: 'vscode', bg: 'rgb(1 101 169 / 0.12)' }
-        ]
-    }
+            { name: 'VS Code', icon: 'vscode', bg: 'rgb(1 101 169 / 0.12)' },
+        ],
+    },
 ]
 </script>

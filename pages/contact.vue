@@ -3,7 +3,7 @@
         <div class="basis-1/2 space-y-6">
             <div class="space-y-3">
                 <h1 class="mt-8 font-jost text-5xl text-gray-600 dark:text-white">
-                    Iván Maxímiliano,<br> Lo Giudice
+                    Iván Maxímiliano,<br /> Lo Giudice
                 </h1>
 
                 <p class="leading-6">
@@ -23,7 +23,7 @@
         </div>
 
         <div class="basis-1/2">
-            <img src="/images/reading-email.svg" class="max-h-[35vh] w-full md:max-h-full" alt="Man reading email">
+            <img src="/images/reading-email.svg" class="max-h-[35vh] w-full md:max-h-full" alt="Man reading email" />
         </div>
     </section>
 </template>
@@ -33,7 +33,7 @@ import gsap from 'gsap'
 
 const app = useAppConfig()
 definePageMeta({
-    title: 'Contact'
+    title: 'Contact',
 })
 
 onMounted(() => {

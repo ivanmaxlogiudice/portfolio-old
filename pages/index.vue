@@ -3,7 +3,7 @@
         <div class="basis-1/2 space-y-6">
             <h1 class="font-jost text-4xl dark:text-white lg:text-6xl">
                 Self taught
-                <br>
+                <br />
                 <span class="text-primary-400">full-stack</span> web developer
             </h1>
 
@@ -33,7 +33,7 @@
         </div>
 
         <div class="basis-1/2">
-            <img src="/images/programming.svg" class="max-h-[35vh] w-full md:max-h-full" alt="Man programming in a PC">
+            <img src="/images/programming.svg" class="max-h-[35vh] w-full md:max-h-full" alt="Man programming in a PC" />
         </div>
     </section>
 </template>

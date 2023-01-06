@@ -19,15 +19,15 @@ const classes = cva('inline-flex items-center leading-6 justify-center space-x-2
         variant: {
             default: 'bg-white text-gray-700 border border-gray-200 hover:bg-gray-50 dark:border-0 dark:bg-gray-600 dark:text-white dark:hover:bg-gray-700',
             primary: 'bg-primary-500 text-white hover:bg-primary-600 tracking-wide',
-            secondary: 'bg-gray-100 text-gray-700 hover:bg-gray-200 dark:bg-gray-700 dark:hover:bg-gray-600 dark:text-white'
+            secondary: 'bg-gray-100 text-gray-700 hover:bg-gray-200 dark:bg-gray-700 dark:hover:bg-gray-600 dark:text-white',
         },
         fullWidth: {
-            true: 'w-full'
-        }
+            true: 'w-full',
+        },
     },
     defaultVariants: {
-        variant: 'default'
-    }
+        variant: 'default',
+    },
 })
 
 const component = computed(() => props.to ? resolveComponent('NuxtLink') : 'button')

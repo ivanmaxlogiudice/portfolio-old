@@ -2,7 +2,7 @@
 export default defineNuxtConfig({
     typescript: {
         shim: false,
-        strict: true
+        strict: true,
     },
 
     // https://nuxt.com/docs/api/configuration/nuxt-config/#ssr
@@ -14,12 +14,12 @@ export default defineNuxtConfig({
             siteUrl: 'https://ivanlogiudice.com',
             siteName: 'Iván Máximiliano, Lo Giudice',
             siteDescription: 'I\'m a full stack developer. I build web apps using frameworks such as vue.js, nuxt, tailwindcss, amongst others.',
-            language: 'en'
-        }
+            language: 'en',
+        },
     },
 
     extends: [
-        'nuxt-seo-kit'
+        'nuxt-seo-kit',
     ],
 
     modules: [
@@ -33,31 +33,31 @@ export default defineNuxtConfig({
         '@nuxtjs/color-mode',
 
         // https://nuxt.com/modules/content
-        '@nuxt/content'
+        '@nuxt/content',
     ],
 
     googleFonts: {
         families: {
             'Open Sans': true,
-            'Jost': [700]
-        }
+            'Jost': [700],
+        },
     },
 
     tailwindcss: {
-        configPath: 'tailwind.config.js'
+        configPath: 'tailwind.config.js',
     },
 
     colorMode: {
         preference: 'dark',
         fallback: 'dark',
-        classSuffix: ''
+        classSuffix: '',
     },
 
     ogImage: {
-        colorScheme: 'dark'
+        colorScheme: 'dark',
     },
 
     build: {
-        transpile: ['gsap', '@heroicons/vue']
-    }
+        transpile: ['gsap', '@heroicons/vue'],
+    },
 })

@@ -16,6 +16,6 @@ export default defineAppConfig({
         // facebook: '',
         // twitter: '',
         // instagram: '',
-        codestats: 'https://codestats.net/users/ivanmaxlogiudice/' // https://codestats.net/
-    }
+        codestats: 'https://codestats.net/users/ivanmaxlogiudice/', // https://codestats.net/
+    },
 })

@@ -1,3 +1,4 @@
+<!-- eslint-disable vue/no-v-html -->
 <template>
     <span class="[&>svg]:h-[1em] [&>svg]:w-[1em] [&>svg]:align-middle" v-html="icon" />
 </template>
