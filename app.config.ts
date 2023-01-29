@@ -11,7 +11,7 @@ export default defineAppConfig({
      */
     social: {
         email: 'mailto:ivanmaxlogiudice@gmail.com',
-        github: 'https://github.com/ivanlogiudice/',
+        github: 'https://github.com/ivanmaxlogiudice/',
         linkedin: 'https://linkedin.com/in/ivanmaxlogiudice/',
         // facebook: '',
         // twitter: '',
