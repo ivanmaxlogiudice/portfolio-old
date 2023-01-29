@@ -110,7 +110,7 @@
                             Programming Technician
                         </h2>
                         <p class="text-base sm:text-lg">
-                            FRSN
+                            National University of Technology
                         </p>
                     </div>
                 </li>
