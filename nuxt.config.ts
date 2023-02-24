@@ -57,8 +57,4 @@ export default defineNuxtConfig({
         colorScheme: 'dark',
         delay: 2500,
     },
-
-    build: {
-        transpile: ['gsap', '@heroicons/vue'],
-    },
 })
